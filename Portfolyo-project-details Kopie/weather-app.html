@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeatherPro - Project Details</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="weather-app.css">
+    
+</head>
+<body>
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="info-columns">
+            <div class="info-column">
+                <div class="info-label">YEAR</div>
+                <div class="info-value">2025</div>
+            </div>
+            <div class="info-column">
+                <div class="info-label">PROJECT</div>
+                <div class="info-value">WeatherPro</div>
+            </div>
+            <div class="info-column">
+                <div class="info-label">PLATFORM</div>
+                <div class="info-value">iOS</div>
+            </div>
+        </div>
+        <div class="hero-content">
+            <h1 class="hero-title">iOS Weather<br>Forecast Application</h1>
+            <div class="badges">
+                <span class="badge">Swift</span>
+                <span class="badge">SwiftUI</span>
+                <span class="badge">MVVM</span>
+                <span class="badge">URLSession</span>
+                <span class="badge">async/await</span>
+                <span class="badge">OpenWeatherMap API</span>
+                <span class="badge">Codable</span>
+                <span class="badge">Combine Framework</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery-section" id="gallerySection">
+        <div class="gallery-sticky-wrapper">
+            <div class="gallery-container" id="galleryContainer">
+                <div class="gallery-item">
+                    <img src="https://yellow-narwhal-657713.hostingersite.com/wp-content/uploads/2026/01/WeatherPro1-scaled.png" 
+                         alt="WeatherPro - Image 1">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://yellow-narwhal-657713.hostingersite.com/wp-content/uploads/2026/01/WeatherPro2-scaled.png" 
+                         alt="WeatherPro - Image 2">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://yellow-narwhal-657713.hostingersite.com/wp-content/uploads/2026/01/WeatherPro3-scaled.png" 
+                         alt="WeatherPro - Image 3">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Next Section -->
+    <section class="next-section">
+        <div class="content-section">
+            <div class="section-number">01</div>
+            <div class="section-content">
+                <h2 class="section-title">THE PROJECT</h2>
+                <p class="section-text">
+                    WeatherPro is a modern iOS weather forecast application that provides real-time weather data with a beautiful, dynamic interface. Built with Swift and SwiftUI, the app delivers essential weather information through an elegant, easy-to-read design with dynamic backgrounds that reflect current conditions. Designed for anyone who needs quick, reliable weather information, WeatherPro offers a clean interface that presents weather data at a glance without overwhelming details. The app features real-time current weather data, 5-day forecasts, temperature display with feels-like readings, weather condition descriptions, humidity and pressure data, wind speed and direction, and dynamic backgrounds that adapt to current weather conditions. Integrated with OpenWeatherMap API, the app demonstrates modern iOS networking and API integration best practices.
+                </p>
+            </div>
+        </div>
+
+        <div class="content-section">
+            <div class="section-number">02</div>
+            <div class="section-content">
+                <h2 class="section-title">THE CHALLENGE</h2>
+                <p class="section-text">
+                    The challenge was creating a weather application that delivers real-time data through an elegant UI while handling complex technical requirements. Key hurdles included integrating external weather API with proper authentication, handling asynchronous data fetching without blocking UI, parsing complex JSON responses from OpenWeatherMap, managing loading and error states gracefully, creating dynamic backgrounds that respond to weather conditions, implementing real-time data updates, robust network error handling, and temperature unit conversion between Celsius and Fahrenheit. The app needed to feel responsive and provide accurate information while maintaining a beautiful, intuitive interface following iOS Human Interface Guidelines.
+                </p>
+                <div class="section-badges">
+                    <span class="section-badge">API Integration</span>
+                    <span class="section-badge">Real-time Data</span>
+                    <span class="section-badge">SwiftUI</span>
+                    <span class="section-badge">Weather Forecast</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="content-section">
+            <div class="section-number">03</div>
+            <div class="section-content">
+                <h2 class="section-title">THE SOLUTION</h2>
+                <p class="section-text">
+                    I developed a production-ready weather application using Swift and SwiftUI with MVVM architecture for clean separation of concerns. The solution leverages modern Swift concurrency with async/await for clean, non-blocking API calls, URLSession for networking operations, and Codable protocol for automatic JSON parsing. The app features comprehensive weather data including current temperature and feels-like temperature, weather condition descriptions with icons, humidity percentage and atmospheric pressure, wind speed and direction data, and 5-day weather forecast. Technical implementation includes ObservableObject and @Published properties for reactive UI updates, Combine framework for data flow management, custom weather models matching OpenWeatherMap API response structure, proper error handling with user-friendly feedback messages, dynamic UI components that adapt to weather conditions, loading states and error states handling, and temperature unit conversion functionality. The interface uses beautiful gradient backgrounds, clean SwiftUI components, smooth animations and transitions, and intuitive city-based weather lookup. Compatible with iOS 15+, the app demonstrates modern iOS development practices including API integration, asynchronous programming, and reactive UI patterns while following Apple's design principles for a native, polished user experience.
+                </p>
+                <div class="section-buttons">
+                    <a href="#" class="section-button primary">View on GitHub</a>
+                    <a href="#" class="section-button">Download Demo</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="image-full-section">
+        <img src="https://yellow-narwhal-657713.hostingersite.com/wp-content/uploads/2026/01/WeatherPro-timeline-scaled.jpg"
+             alt="WeatherPro - Detail Page" 
+             class="next-section-image">
+    </section>
+
+    <!-- Testimonial Section -->
+    <section class="testimonial-section" id="testimonialSection">
+        <div class="testimonial-container">
+            <div class="testimonial-rating">
+                <div class="rating-number">5.0</div>
+                <div class="rating-stars">
+                    <svg class="star" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                    </svg>
+                    <svg class="star" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                    </svg>
+                    <svg class="star" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                    </svg>
+                    <svg class="star" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                    </svg>
+                    <svg class="star" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                    </svg>
+                </div>
+            </div>
+            <div class="testimonial-quote" id="testimonialQuote">
+                "[Referans metni buraya gelecek. StepCounter'dan gelen testimonial buraya yazılacak.]"
+            </div>
+            <div class="testimonial-author">
+                <div class="author-info">
+                    <span class="author-name">[İsim buraya gelecek]</span>
+                    <span class="author-company">[Pozisyon buraya gelecek]</span>
+                    <span class="author-company">StepCounter</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final Quote Section -->
+    <section class="final-quote-section" id="finalQuoteSection">
+        <div class="quote-sticky-container">
+            <img src="https://yellow-narwhal-657713.hostingersite.com/wp-content/uploads/2026/01/WeatherProWatch-scaled.jpg" 
+                 alt="WeatherPro - Project Images" 
+                 class="quote-image">
+            
+            <div class="final-quote-text" id="finalQuoteText">
+                Stay Informed, Stay Prepared.
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="cta-container">
+            <h2 class="cta-heading">Let's Work Together!</h2>
+            <p class="cta-text">
+                I create digital experiences through <strong>Web Design</strong>, <strong>UI/UX Design</strong>, <strong>Web Development</strong> & <strong>Custom Solutions</strong>. Ready to bring your project to life? Get in touch.
+            </p>
+            <div class="cta-buttons">
+                <a href="#" class="cta-button primary">Get In Touch</a>
+                <a href="mailto:canarda.dev@gmail.com" class="cta-button secondary">canarda.dev@gmail.com</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Header -->
+    <section class="projects-header">
+        <h2 class="projects-title">More Projects</h2>
+    </section>
+
+    <!-- Projects Gallery Section -->
+    <section class="projects-gallery-section" id="projectsGallerySection">
+        <div class="projects-gallery-sticky-wrapper">
+            <div class="projects-gallery-container" id="projectsGalleryContainer">
+                <div class="projects-gallery-item">
+                    <img src="https://yellow-narwhal-657713.hostingersite.com/wp-content/uploads/2026/01/TaskManager-scaled.jpg" 
+                         alt="Project 1 - Task Manager">
+                    <div class="project-overlay">
+                        <div class="project-overlay-title">Task Manager</div>
+                        <div class="project-overlay-subtitle">Organize Your Tasks Efficiently</div>
+                    </div>
+                </div>
+                <div class="projects-gallery-item">
+                    <img src="https://yellow-narwhal-657713.hostingersite.com/wp-content/uploads/2026/01/weather-app-1-scaled.png" 
+                         alt="Project 2 - Weather App">
+                    <div class="project-overlay">
+                        <div class="project-overlay-title">Weather App</div>
+                        <div class="project-overlay-subtitle">Stay Informed About the Weather</div>
+                    </div>
+                </div>
+                <div class="projects-gallery-item">
+                    <img src="https://yellow-narwhal-657713.hostingersite.com/wp-content/uploads/2026/01/u-ber-scaled.jpg" 
+                         alt="Project 3 - Uber Clone">
+                    <div class="project-overlay">
+                        <div class="project-overlay-title">Ride Sharing</div>
+                        <div class="project-overlay-subtitle">Modern Mobility Solution for Everyone</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Custom Cursor -->
+    <div class="custom-cursor" id="customCursor">
+        <div class="custom-cursor-text">View<br>Project</div>
+    </div>
+
+    
+    <script src="weather-app.js"></script>
+</body>
+</html>

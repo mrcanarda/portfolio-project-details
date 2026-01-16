@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather API - Project Details</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="weather-api.css">
+    
+</head>
+<body>
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="info-columns">
+            <div class="info-column">
+                <div class="info-label">YEAR</div>
+                <div class="info-value">2025</div>
+            </div>
+            <div class="info-column">
+                <div class="info-label">PROJECT</div>
+                <div class="info-value">Weather API</div>
+            </div>
+            <div class="info-column">
+                <div class="info-label">PLATFORM</div>
+                <div class="info-value">Backend API</div>
+            </div>
+        </div>
+        <div class="hero-content">
+            <h1 class="hero-title">RESTful Weather<br>Data API</h1>
+            <div class="badges">
+                <span class="badge">Node.js</span>
+                <span class="badge">Express.js</span>
+                <span class="badge">Axios</span>
+                <span class="badge">OpenWeatherMap API</span>
+                <span class="badge">RESTful API</span>
+                <span class="badge">CORS</span>
+                <span class="badge">dotenv</span>
+                <span class="badge">Error Handling</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery-section" id="gallerySection">
+        <div class="gallery-sticky-wrapper">
+            <div class="gallery-container" id="galleryContainer">
+                <div class="gallery-item">
+                    <img src="https://yellow-narwhal-657713.hostingersite.com/wp-content/uploads/2026/01/weather-api-01-scaled.jpg" 
+                         alt="Weather API - Image 1">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://yellow-narwhal-657713.hostingersite.com/wp-content/uploads/2026/01/weather-api-02-scaled.jpg" 
+                         alt="Weather API - Image 2">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://yellow-narwhal-657713.hostingersite.com/wp-content/uploads/2026/01/weather-api-03-scaled.jpg" 
+                         alt="Weather API - Image 3">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Next Section -->
+    <section class="next-section">
+        <div class="content-section">
+            <div class="section-number">01</div>
+            <div class="section-content">
+                <h2 class="section-title">THE PROJECT</h2>
+                <p class="section-text">
+                    Weather API is a RESTful backend service built with Node.js and Express that provides real-time weather data and forecasts. Acting as a proxy to OpenWeatherMap API, it delivers structured weather information through clean JSON endpoints with support for both city-based and coordinate-based queries. The API provides comprehensive weather metrics including current conditions, 5-day forecasts, temperature data, humidity, wind speed, visibility, and sunrise/sunset times. Designed for easy frontend integration, the service features multiple endpoint options, comprehensive error handling, and CORS configuration for seamless cross-origin requests.
+                </p>
+            </div>
+        </div>
+
+        <div class="content-section">
+            <div class="section-number">02</div>
+            <div class="section-content">
+                <h2 class="section-title">THE CHALLENGE</h2>
+                <p class="section-text">
+                    Creating a reliable weather API that handles real-time data from external sources while providing clean, structured responses for frontend applications. Key challenges included securing API keys and environment variables, managing rate limiting from OpenWeatherMap, handling error responses for invalid cities or coordinates, formatting complex weather data for easy consumption, implementing proper CORS configuration, and developing caching strategies for frequently requested locations. The API needed to be robust, maintainable, and follow RESTful design principles.
+                </p>
+                <div class="section-badges">
+                    <span class="section-badge">RESTful API</span>
+                    <span class="section-badge">Real-time Data</span>
+                    <span class="section-badge">API Integration</span>
+                    <span class="section-badge">Error Handling</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="content-section">
+            <div class="section-number">03</div>
+            <div class="section-content">
+                <h2 class="section-title">THE SOLUTION</h2>
+                <p class="section-text">
+                    I developed a production-ready backend service using Node.js and Express with Axios for HTTP requests to OpenWeatherMap API. The solution implements secure API key management using dotenv for environment variables, comprehensive error handling middleware for API failures and invalid requests, and CORS configuration for cross-origin frontend integration. The API features multiple endpoints including current weather by city or coordinates, 5-day forecasts, health check endpoint for monitoring, and root endpoint with API documentation. Data validation ensures proper city names and coordinate formats, while clean JSON response structures make frontend integration seamless. The service follows RESTful conventions with proper HTTP methods and status codes, providing detailed weather metrics including temperature (actual and feels-like), weather descriptions and conditions, humidity and pressure, wind speed and direction, visibility and cloudiness, and sunrise/sunset times.
+                </p>
+                <div class="section-buttons">
+                    <a href="#" class="section-button primary">View on GitHub</a>
+                    <a href="#" class="section-button">API Documentation</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="image-full-section">
+        <img src="https://yellow-narwhal-657713.hostingersite.com/wp-content/uploads/2026/01/sun-behind-cloud-with-rain-showers-weather-icon-ma-2026-01-05-05-23-03-utc-scaled.jpg" 
+             alt="Weather API - Detail Page" 
+             class="next-section-image">
+    </section>
+
+    <!-- Testimonial Section -->
+    <section class="testimonial-section" id="testimonialSection">
+        <div class="testimonial-container">
+            <div class="testimonial-rating">
+                <div class="rating-number">5.0</div>
+                <div class="rating-stars">
+                    <svg class="star" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                    </svg>
+                    <svg class="star" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                    </svg>
+                    <svg class="star" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                    </svg>
+                    <svg class="star" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                    </svg>
+                    <svg class="star" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                    </svg>
+                </div>
+            </div>
+            <div class="testimonial-quote" id="testimonialQuote">
+                "[Referans metni buraya gelecek. Weather API'dan gelen testimonial buraya yazılacak.]"
+            </div>
+            <div class="testimonial-author">
+                <div class="author-info">
+                    <span class="author-name">[İsim buraya gelecek]</span>
+                    <span class="author-company">[Pozisyon buraya gelecek]</span>
+                    <span class="author-company">Weather API</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final Quote Section -->
+    <section class="final-quote-section" id="finalQuoteSection">
+        <div class="quote-sticky-container">
+            <img src="https://yellow-narwhal-657713.hostingersite.com/wp-content/uploads/2026/01/weather-api-04-scaled.jpg" 
+                 alt="Weather API - Project Images" 
+                 class="quote-image">
+            
+            <div class="final-quote-text" id="finalQuoteText">
+                Reliable Data, Seamless Integration.
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="cta-container">
+            <h2 class="cta-heading">Let's Work Together!</h2>
+            <p class="cta-text">
+                I create digital experiences through <strong>Web Design</strong>, <strong>UI/UX Design</strong>, <strong>Web Development</strong> & <strong>Custom Solutions</strong>. Ready to bring your project to life? Get in touch.
+            </p>
+            <div class="cta-buttons">
+                <a href="#" class="cta-button primary">Get In Touch</a>
+                <a href="mailto:canarda.dev@gmail.com" class="cta-button secondary">canarda.dev@gmail.com</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Header -->
+    <section class="projects-header">
+        <h2 class="projects-title">More Projects</h2>
+    </section>
+
+    <!-- Projects Gallery Section -->
+    <section class="projects-gallery-section" id="projectsGallerySection">
+        <div class="projects-gallery-sticky-wrapper">
+            <div class="projects-gallery-container" id="projectsGalleryContainer">
+                <div class="projects-gallery-item">
+                    <img src="https://yellow-narwhal-657713.hostingersite.com/wp-content/uploads/2026/01/TaskManager-scaled.jpg" 
+                         alt="Project 1 - Task Manager">
+                    <div class="project-overlay">
+                        <div class="project-overlay-title">Task Manager</div>
+                        <div class="project-overlay-subtitle">Organize Your Tasks Efficiently</div>
+                    </div>
+                </div>
+                <div class="projects-gallery-item">
+                    <img src="https://yellow-narwhal-657713.hostingersite.com/wp-content/uploads/2026/01/weather-app-1-scaled.png" 
+                         alt="Project 2 - Weather App">
+                    <div class="project-overlay">
+                        <div class="project-overlay-title">Weather App</div>
+                        <div class="project-overlay-subtitle">Stay Informed About the Weather</div>
+                    </div>
+                </div>
+                <div class="projects-gallery-item">
+                    <img src="https://yellow-narwhal-657713.hostingersite.com/wp-content/uploads/2026/01/u-ber-scaled.jpg" 
+                         alt="Project 3 - Uber Clone">
+                    <div class="project-overlay">
+                        <div class="project-overlay-title">Ride Sharing</div>
+                        <div class="project-overlay-subtitle">Modern Mobility Solution for Everyone</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Custom Cursor -->
+    <div class="custom-cursor" id="customCursor">
+        <div class="custom-cursor-text">View<br>Project</div>
+    </div>
+
+    
+    <script src="weather-api.js"></script>
+</body>
+</html>
